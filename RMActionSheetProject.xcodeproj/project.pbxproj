@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20E78561ECEE73B0094E5B9 /* RMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E78551ECEE73B0094E5B9 /* RMAlertView.m */; };
 		C2AB31671ECBF6050008DC24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AB31661ECBF6050008DC24 /* main.m */; };
 		C2AB316A1ECBF6050008DC24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AB31691ECBF6050008DC24 /* AppDelegate.m */; };
 		C2AB316D1ECBF6050008DC24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AB316C1ECBF6050008DC24 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C20E78541ECEE73B0094E5B9 /* RMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAlertView.h; sourceTree = "<group>"; };
+		C20E78551ECEE73B0094E5B9 /* RMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMAlertView.m; sourceTree = "<group>"; };
 		C2AB31621ECBF6050008DC24 /* RMActionSheetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMActionSheetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AB31661ECBF6050008DC24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2AB31681ECBF6050008DC24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,7 +32,6 @@
 		C2AB31761ECBF6050008DC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2AB317D1ECBF6BC0008DC24 /* RMActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMActionSheet.h; sourceTree = "<group>"; };
 		C2AB317E1ECBF6BC0008DC24 /* RMActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMActionSheet.m; sourceTree = "<group>"; };
-		C2AB31801ECBF75F0008DC24 /* RMAlertSheetDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMAlertSheetDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C20E78531ECEE6C20094E5B9 /* RMAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				C20E78541ECEE73B0094E5B9 /* RMAlertView.h */,
+				C20E78551ECEE73B0094E5B9 /* RMAlertView.m */,
+			);
+			path = RMAlertView;
+			sourceTree = "<group>";
+		};
 		C2AB31591ECBF6050008DC24 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +73,7 @@
 		C2AB31641ECBF6050008DC24 /* RMActionSheetProject */ = {
 			isa = PBXGroup;
 			children = (
+				C20E78531ECEE6C20094E5B9 /* RMAlertView */,
 				C2AB317C1ECBF6520008DC24 /* RMActionSheet */,
 				C2AB31681ECBF6050008DC24 /* AppDelegate.h */,
 				C2AB31691ECBF6050008DC24 /* AppDelegate.m */,
@@ -87,7 +99,6 @@
 		C2AB317C1ECBF6520008DC24 /* RMActionSheet */ = {
 			isa = PBXGroup;
 			children = (
-				C2AB31801ECBF75F0008DC24 /* RMAlertSheetDefine.h */,
 				C2AB317D1ECBF6BC0008DC24 /* RMActionSheet.h */,
 				C2AB317E1ECBF6BC0008DC24 /* RMActionSheet.m */,
 			);
@@ -167,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2AB317F1ECBF6BC0008DC24 /* RMActionSheet.m in Sources */,
+				C20E78561ECEE73B0094E5B9 /* RMAlertView.m in Sources */,
 				C2AB316D1ECBF6050008DC24 /* ViewController.m in Sources */,
 				C2AB316A1ECBF6050008DC24 /* AppDelegate.m in Sources */,
 				C2AB31671ECBF6050008DC24 /* main.m in Sources */,
@@ -328,6 +340,7 @@
 				C2AB317B1ECBF6050008DC24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
